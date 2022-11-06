@@ -1,0 +1,10 @@
+.pokeCard {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+h2 {
+    text-transform: capitalize;
+}
