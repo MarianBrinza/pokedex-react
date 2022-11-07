@@ -1,0 +1,20 @@
+.pokeCard {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.9);
+    border-top: 1px solid #d6c887;
+    border-bottom: 1px solid #d6c887;
+    padding: 20px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    text-transform: capitalize;
+}

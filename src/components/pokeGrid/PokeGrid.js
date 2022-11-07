@@ -1,15 +1,18 @@
 import PokeCard from "../pokeCard/PokeCard";
-import './PokeGridStyles.css';
+import './PokeGrid.css';
 
-const PokeGrid = ({pokemons}) => {
+const PokeGrid = ({pokemons, handleCardClicked}) => {
 
   return (
     <div className="pokeGrid">
-      <ul>
+      <ul className='center'>
         {
           pokemons.map(pokemon => (
             <li key={pokemon.id}>
-              <PokeCard pokemon={pokemon}/>
+              <PokeCard
+                pokemon={pokemon}
+                handleCardClicked={handleCardClicked}
+              />
             </li>
           ))
         }

@@ -1,13 +1,13 @@
-import './PokeCardStyles.css';
+import './PokeCard.css';
 
-const PokeCard = ({pokemon}) => {
-  const {id, img, name, type} = pokemon;
+const PokeCard = ({pokemon, handleCardClicked}) => {
+  const {id, img, name} = pokemon;
 
   return (
-    <div className="pokeCard">
+    <div className="pokeCard" onClick={() => handleCardClicked(id)}>
+      <h2>{`#${id.toString().padStart(3,'0')}`}</h2>
       <img src={img} alt={`pokemon ${name}`}/>
-      <h2>{id}. {name}</h2>
-      <p>Type: {type}</p>
+      <h2>{name}</h2>
     </div>
   );
 }
