@@ -1,4 +1,3 @@
-// import './pokeDetails/PokeDetails.css';
 import {useEffect, useState} from "react";
 import {colors, pokeDetails} from "../constants";
 import {getPokemonDetails} from "../util";

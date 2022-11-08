@@ -2,9 +2,9 @@ import './App.css';
 import {fetchPokemonsInfo, setCssClasses} from "./util";
 import {useEffect, useState} from "react";
 import {pokeApi} from "./constants";
-import PokeGrid from "./components/pokeGrid/PokeGrid";
-import PokeDetails from "./components/pokeDetails/PokeDetails";
-import Layout from "./components/layout/Layout";
+import PokeGrid from "./components/PokeGrid";
+import PokeDetails from "./components/PokeDetails";
+import Layout from "./components/Layout";
 
 function App() {
   const [pokemons, setPokemons] = useState([]);

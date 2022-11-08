@@ -1,4 +1,3 @@
-// import './layout/Layout.css';
 import pokedex from '../assets/pokedex.png';
 
 const Layout = ({children}) => {
