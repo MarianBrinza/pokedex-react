@@ -1,4 +1,4 @@
-import './PokeCard.css';
+// import './pokeCard/PokeCard.css';
 
 const PokeCard = ({pokemon, handleCardClicked}) => {
   const {id, img, name} = pokemon;

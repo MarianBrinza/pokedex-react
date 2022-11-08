@@ -1,7 +1,7 @@
-import './PokeDetails.css';
+// import './pokeDetails/PokeDetails.css';
 import {useEffect, useState} from "react";
-import {colors, pokeDetails} from "../../constants";
-import {getPokemonDetails} from "../../util";
+import {colors, pokeDetails} from "../constants";
+import {getPokemonDetails} from "../util";
 
 const PokeDetails = ({selectedPokemonId}) => {
 

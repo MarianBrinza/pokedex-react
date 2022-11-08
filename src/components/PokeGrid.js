@@ -1,5 +1,4 @@
-import PokeCard from "../pokeCard/PokeCard";
-import './PokeGrid.css';
+import PokeCard from "./PokeCard";
 
 const PokeGrid = ({pokemons, handleCardClicked}) => {
 
